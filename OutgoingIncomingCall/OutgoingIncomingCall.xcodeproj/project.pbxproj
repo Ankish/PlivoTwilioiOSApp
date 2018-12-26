@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E4ADA271DD4C94D80E150D9 /* Pods_OutgoingIncomingCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECAD55AFA258E558BC8D2CC /* Pods_OutgoingIncomingCall.framework */; };
+		64DE1D7C21CBA8EA009E6F4E /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D5321CBA8E9009E6F4E /* UserDefaultManager.swift */; };
+		64DE1D7D21CBA8EA009E6F4E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D5421CBA8E9009E6F4E /* Logger.swift */; };
+		64DE1D7E21CBA8EA009E6F4E /* PushHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D5521CBA8E9009E6F4E /* PushHandler.swift */; };
+		64DE1D7F21CBA8EA009E6F4E /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D5621CBA8E9009E6F4E /* AppUtility.swift */; };
+		64DE1D8021CBA8EA009E6F4E /* PlivoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D5721CBA8E9009E6F4E /* PlivoManager.swift */; };
+		64DE1D8121CBA8EA009E6F4E /* CallKitInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D5821CBA8E9009E6F4E /* CallKitInstance.swift */; };
+		64DE1D8221CBA8EA009E6F4E /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D5B21CBA8E9009E6F4E /* CallViewController.swift */; };
+		64DE1D8321CBA8EA009E6F4E /* DialPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D5C21CBA8E9009E6F4E /* DialPadViewController.swift */; };
+		64DE1D8421CBA8EA009E6F4E /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D5D21CBA8E9009E6F4E /* SplashViewController.swift */; };
+		64DE1D8521CBA8EA009E6F4E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D5E21CBA8E9009E6F4E /* LoginViewController.swift */; };
+		64DE1D8821CBA8EA009E6F4E /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D6321CBA8EA009E6F4E /* UIViewController+Extension.swift */; };
+		64DE1D8A21CBA8EA009E6F4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D6621CBA8EA009E6F4E /* AppDelegate.swift */; };
+		64DE1D8C21CBA8EA009E6F4E /* Plivo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DE1D6A21CBA8EA009E6F4E /* Plivo.storyboard */; };
+		64DE1D8D21CBA8EA009E6F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DE1D6B21CBA8EA009E6F4E /* LaunchScreen.storyboard */; };
+		64DE1D8E21CBA8EA009E6F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64DE1D6D21CBA8EA009E6F4E /* Main.storyboard */; };
+		64DE1D8F21CBA8EA009E6F4E /* JCPadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D7321CBA8EA009E6F4E /* JCPadButton.m */; };
+		64DE1D9021CBA8EA009E6F4E /* UIView+FrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D7621CBA8EA009E6F4E /* UIView+FrameAccessor.m */; };
+		64DE1D9121CBA8EA009E6F4E /* JCDialPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DE1D7821CBA8EA009E6F4E /* JCDialPad.m */; };
+		64DE1D9221CBA8EA009E6F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64DE1D7A21CBA8EA009E6F4E /* Assets.xcassets */; };
+		64DE1D9521CBAB2C009E6F4E /* OutgoingIncomingCall.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64DE1D9421CBAB2C009E6F4E /* OutgoingIncomingCall.plist */; };
+		A222F60221D3E11F00180BBD /* TwilioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A222F60021D3E11E00180BBD /* TwilioManager.swift */; };
+		A222F60321D3E11F00180BBD /* SIPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A222F60121D3E11F00180BBD /* SIPManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C0FB1E09BD609382C599B6C /* Pods-OutgoingIncomingCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutgoingIncomingCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-OutgoingIncomingCall/Pods-OutgoingIncomingCall.release.xcconfig"; sourceTree = "<group>"; };
+		64DE1D3B21CBA82F009E6F4E /* OutgoingIncomingCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutgoingIncomingCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DE1D5321CBA8E9009E6F4E /* UserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		64DE1D5421CBA8E9009E6F4E /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		64DE1D5521CBA8E9009E6F4E /* PushHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushHandler.swift; sourceTree = "<group>"; };
+		64DE1D5621CBA8E9009E6F4E /* AppUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		64DE1D5721CBA8E9009E6F4E /* PlivoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlivoManager.swift; sourceTree = "<group>"; };
+		64DE1D5821CBA8E9009E6F4E /* CallKitInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallKitInstance.swift; sourceTree = "<group>"; };
+		64DE1D5B21CBA8E9009E6F4E /* CallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		64DE1D5C21CBA8E9009E6F4E /* DialPadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialPadViewController.swift; sourceTree = "<group>"; };
+		64DE1D5D21CBA8E9009E6F4E /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		64DE1D5E21CBA8E9009E6F4E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		64DE1D6321CBA8EA009E6F4E /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		64DE1D6621CBA8EA009E6F4E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64DE1D6721CBA8EA009E6F4E /* Plivo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Plivo-Bridging-Header.h"; sourceTree = "<group>"; };
+		64DE1D6A21CBA8EA009E6F4E /* Plivo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Plivo.storyboard; sourceTree = "<group>"; };
+		64DE1D6C21CBA8EA009E6F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64DE1D6E21CBA8EA009E6F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64DE1D7221CBA8EA009E6F4E /* UIView+FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameAccessor.h"; sourceTree = "<group>"; };
+		64DE1D7321CBA8EA009E6F4E /* JCPadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCPadButton.m; sourceTree = "<group>"; };
+		64DE1D7421CBA8EA009E6F4E /* JCDialPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDialPad.h; sourceTree = "<group>"; };
+		64DE1D7521CBA8EA009E6F4E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		64DE1D7621CBA8EA009E6F4E /* UIView+FrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameAccessor.m"; sourceTree = "<group>"; };
+		64DE1D7721CBA8EA009E6F4E /* JCPadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCPadButton.h; sourceTree = "<group>"; };
+		64DE1D7821CBA8EA009E6F4E /* JCDialPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDialPad.m; sourceTree = "<group>"; };
+		64DE1D7A21CBA8EA009E6F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64DE1D9321CBA96B009E6F4E /* OutgoingIncomingCall.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OutgoingIncomingCall.entitlements; sourceTree = "<group>"; };
+		64DE1D9421CBAB2C009E6F4E /* OutgoingIncomingCall.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = OutgoingIncomingCall.plist; sourceTree = "<group>"; };
+		9E1560662347CC4694165DF3 /* Pods-OutgoingIncomingCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutgoingIncomingCall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OutgoingIncomingCall/Pods-OutgoingIncomingCall.debug.xcconfig"; sourceTree = "<group>"; };
+		A222F60021D3E11E00180BBD /* TwilioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwilioManager.swift; sourceTree = "<group>"; };
+		A222F60121D3E11F00180BBD /* SIPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SIPManager.swift; sourceTree = "<group>"; };
+		FECAD55AFA258E558BC8D2CC /* Pods_OutgoingIncomingCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OutgoingIncomingCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64DE1D3821CBA82F009E6F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4ADA271DD4C94D80E150D9 /* Pods_OutgoingIncomingCall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F94D1BAFE22EAB49385EA63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E1560662347CC4694165DF3 /* Pods-OutgoingIncomingCall.debug.xcconfig */,
+				2C0FB1E09BD609382C599B6C /* Pods-OutgoingIncomingCall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64DE1D3221CBA82F009E6F4E = {
+			isa = PBXGroup;
+			children = (
+				64DE1D3D21CBA82F009E6F4E /* OutgoingIncomingCall */,
+				64DE1D3C21CBA82F009E6F4E /* Products */,
+				0F94D1BAFE22EAB49385EA63 /* Pods */,
+				DF8D2A85E436FB117568BCED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64DE1D3C21CBA82F009E6F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64DE1D3B21CBA82F009E6F4E /* OutgoingIncomingCall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64DE1D3D21CBA82F009E6F4E /* OutgoingIncomingCall */ = {
+			isa = PBXGroup;
+			children = (
+				64DE1D9321CBA96B009E6F4E /* OutgoingIncomingCall.entitlements */,
+				64DE1D5121CBA8E9009E6F4E /* Util */,
+				64DE1D5921CBA8E9009E6F4E /* View Controllers */,
+				64DE1D6021CBA8E9009E6F4E /* Extensions */,
+				64DE1D6521CBA8EA009E6F4E /* Supporting Files */,
+				64DE1D6921CBA8EA009E6F4E /* View */,
+				64DE1D6F21CBA8EA009E6F4E /* External */,
+				64DE1D7921CBA8EA009E6F4E /* Assets */,
+				64DE1D5021CBA8E9009E6F4E /* OutGoingCall */,
+			);
+			path = OutgoingIncomingCall;
+			sourceTree = "<group>";
+		};
+		64DE1D5021CBA8E9009E6F4E /* OutGoingCall */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OutGoingCall;
+			sourceTree = "<group>";
+		};
+		64DE1D5121CBA8E9009E6F4E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A222F60121D3E11F00180BBD /* SIPManager.swift */,
+				A222F60021D3E11E00180BBD /* TwilioManager.swift */,
+				64DE1D5321CBA8E9009E6F4E /* UserDefaultManager.swift */,
+				64DE1D5421CBA8E9009E6F4E /* Logger.swift */,
+				64DE1D5521CBA8E9009E6F4E /* PushHandler.swift */,
+				64DE1D5621CBA8E9009E6F4E /* AppUtility.swift */,
+				64DE1D5721CBA8E9009E6F4E /* PlivoManager.swift */,
+				64DE1D5821CBA8E9009E6F4E /* CallKitInstance.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		64DE1D5921CBA8E9009E6F4E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				64DE1D5A21CBA8E9009E6F4E /* Plivo Controller */,
+				64DE1D5D21CBA8E9009E6F4E /* SplashViewController.swift */,
+				64DE1D5E21CBA8E9009E6F4E /* LoginViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		64DE1D5A21CBA8E9009E6F4E /* Plivo Controller */ = {
+			isa = PBXGroup;
+			children = (
+				64DE1D5B21CBA8E9009E6F4E /* CallViewController.swift */,
+				64DE1D5C21CBA8E9009E6F4E /* DialPadViewController.swift */,
+			);
+			path = "Plivo Controller";
+			sourceTree = "<group>";
+		};
+		64DE1D6021CBA8E9009E6F4E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				64DE1D6321CBA8EA009E6F4E /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		64DE1D6521CBA8EA009E6F4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64DE1D6621CBA8EA009E6F4E /* AppDelegate.swift */,
+				64DE1D6721CBA8EA009E6F4E /* Plivo-Bridging-Header.h */,
+				64DE1D9421CBAB2C009E6F4E /* OutgoingIncomingCall.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64DE1D6921CBA8EA009E6F4E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64DE1D6A21CBA8EA009E6F4E /* Plivo.storyboard */,
+				64DE1D6B21CBA8EA009E6F4E /* LaunchScreen.storyboard */,
+				64DE1D6D21CBA8EA009E6F4E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64DE1D6F21CBA8EA009E6F4E /* External */ = {
+			isa = PBXGroup;
+			children = (
+				64DE1D7021CBA8EA009E6F4E /* libPhoneNumber-iOS */,
+				64DE1D7121CBA8EA009E6F4E /* Dial Pad */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		64DE1D7021CBA8EA009E6F4E /* libPhoneNumber-iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "libPhoneNumber-iOS";
+			sourceTree = "<group>";
+		};
+		64DE1D7121CBA8EA009E6F4E /* Dial Pad */ = {
+			isa = PBXGroup;
+			children = (
+				64DE1D7221CBA8EA009E6F4E /* UIView+FrameAccessor.h */,
+				64DE1D7321CBA8EA009E6F4E /* JCPadButton.m */,
+				64DE1D7421CBA8EA009E6F4E /* JCDialPad.h */,
+				64DE1D7521CBA8EA009E6F4E /* Constants.h */,
+				64DE1D7621CBA8EA009E6F4E /* UIView+FrameAccessor.m */,
+				64DE1D7721CBA8EA009E6F4E /* JCPadButton.h */,
+				64DE1D7821CBA8EA009E6F4E /* JCDialPad.m */,
+			);
+			path = "Dial Pad";
+			sourceTree = "<group>";
+		};
+		64DE1D7921CBA8EA009E6F4E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				64DE1D7A21CBA8EA009E6F4E /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DF8D2A85E436FB117568BCED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FECAD55AFA258E558BC8D2CC /* Pods_OutgoingIncomingCall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64DE1D3A21CBA82F009E6F4E /* OutgoingIncomingCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64DE1D4D21CBA833009E6F4E /* Build configuration list for PBXNativeTarget "OutgoingIncomingCall" */;
+			buildPhases = (
+				8C8513D455B49286E3BF9D67 /* [CP] Check Pods Manifest.lock */,
+				64DE1D3721CBA82F009E6F4E /* Sources */,
+				64DE1D3821CBA82F009E6F4E /* Frameworks */,
+				64DE1D3921CBA82F009E6F4E /* Resources */,
+				72F58E7B2D3A01F721344BD0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OutgoingIncomingCall;
+			productName = OutgoingIncomingCall;
+			productReference = 64DE1D3B21CBA82F009E6F4E /* OutgoingIncomingCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64DE1D3321CBA82F009E6F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Plivo;
+				TargetAttributes = {
+					64DE1D3A21CBA82F009E6F4E = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 64DE1D3621CBA82F009E6F4E /* Build configuration list for PBXProject "OutgoingIncomingCall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64DE1D3221CBA82F009E6F4E;
+			productRefGroup = 64DE1D3C21CBA82F009E6F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64DE1D3A21CBA82F009E6F4E /* OutgoingIncomingCall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64DE1D3921CBA82F009E6F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DE1D9521CBAB2C009E6F4E /* OutgoingIncomingCall.plist in Resources */,
+				64DE1D8E21CBA8EA009E6F4E /* Main.storyboard in Resources */,
+				64DE1D8D21CBA8EA009E6F4E /* LaunchScreen.storyboard in Resources */,
+				64DE1D8C21CBA8EA009E6F4E /* Plivo.storyboard in Resources */,
+				64DE1D9221CBA8EA009E6F4E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72F58E7B2D3A01F721344BD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OutgoingIncomingCall/Pods-OutgoingIncomingCall-frameworks.sh",
+				"${PODS_ROOT}/PlivoVoiceKit/PlivoVoiceKit.framework",
+				"${PODS_ROOT}/TwilioVoice/TwilioVoice.framework",
+				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlivoVoiceKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwilioVoice.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OutgoingIncomingCall/Pods-OutgoingIncomingCall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C8513D455B49286E3BF9D67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OutgoingIncomingCall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64DE1D3721CBA82F009E6F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DE1D8821CBA8EA009E6F4E /* UIViewController+Extension.swift in Sources */,
+				A222F60221D3E11F00180BBD /* TwilioManager.swift in Sources */,
+				64DE1D7F21CBA8EA009E6F4E /* AppUtility.swift in Sources */,
+				64DE1D7D21CBA8EA009E6F4E /* Logger.swift in Sources */,
+				64DE1D8321CBA8EA009E6F4E /* DialPadViewController.swift in Sources */,
+				64DE1D8421CBA8EA009E6F4E /* SplashViewController.swift in Sources */,
+				64DE1D9121CBA8EA009E6F4E /* JCDialPad.m in Sources */,
+				A222F60321D3E11F00180BBD /* SIPManager.swift in Sources */,
+				64DE1D8021CBA8EA009E6F4E /* PlivoManager.swift in Sources */,
+				64DE1D8F21CBA8EA009E6F4E /* JCPadButton.m in Sources */,
+				64DE1D7C21CBA8EA009E6F4E /* UserDefaultManager.swift in Sources */,
+				64DE1D7E21CBA8EA009E6F4E /* PushHandler.swift in Sources */,
+				64DE1D8A21CBA8EA009E6F4E /* AppDelegate.swift in Sources */,
+				64DE1D9021CBA8EA009E6F4E /* UIView+FrameAccessor.m in Sources */,
+				64DE1D8221CBA8EA009E6F4E /* CallViewController.swift in Sources */,
+				64DE1D8521CBA8EA009E6F4E /* LoginViewController.swift in Sources */,
+				64DE1D8121CBA8EA009E6F4E /* CallKitInstance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64DE1D6B21CBA8EA009E6F4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64DE1D6C21CBA8EA009E6F4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		64DE1D6D21CBA8EA009E6F4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64DE1D6E21CBA8EA009E6F4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64DE1D4B21CBA833009E6F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64DE1D4C21CBA833009E6F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64DE1D4E21CBA833009E6F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1560662347CC4694165DF3 /* Pods-OutgoingIncomingCall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata";
+				CODE_SIGN_ENTITLEMENTS = OutgoingIncomingCall/OutgoingIncomingCall.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WNCL3CUH9C;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "OutgoingIncomingCall/Supporting Files/OutgoingIncomingCall.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aplivo.voiptest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OutgoingIncomingCall/Supporting Files/Plivo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64DE1D4F21CBA833009E6F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0FB1E09BD609382C599B6C /* Pods-OutgoingIncomingCall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata";
+				CODE_SIGN_ENTITLEMENTS = OutgoingIncomingCall/OutgoingIncomingCall.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WNCL3CUH9C;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "OutgoingIncomingCall/Supporting Files/OutgoingIncomingCall.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PODS_PODFILE_DIR_PATH = "${SRCROOT}/.";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aplivo.voiptest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OutgoingIncomingCall/Supporting Files/Plivo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64DE1D3621CBA82F009E6F4E /* Build configuration list for PBXProject "OutgoingIncomingCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DE1D4B21CBA833009E6F4E /* Debug */,
+				64DE1D4C21CBA833009E6F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64DE1D4D21CBA833009E6F4E /* Build configuration list for PBXNativeTarget "OutgoingIncomingCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DE1D4E21CBA833009E6F4E /* Debug */,
+				64DE1D4F21CBA833009E6F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64DE1D3321CBA82F009E6F4E /* Project object */;
+}
