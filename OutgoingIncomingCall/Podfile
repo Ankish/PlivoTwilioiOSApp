@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'OutgoingIncomingCall' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'PlivoVoiceKit'
+  pod 'TwilioVoice', '~> 2.0.0'
+  
+  #phone number formmatter
+  pod 'libPhoneNumber-iOS', '0.9.3'
+
+end
